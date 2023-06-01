@@ -25,11 +25,11 @@ public class Mars {
 
         landing  = landingCheck(10);
 
-        MarsExpedition expedition = new MarsExpedition();
-        expedition.marsExpedition();
+        new GuessingGame().guessingGame();
+        new MarsExpedition().marsExpedition();
+        new FindingsList().findingsList();
 
-        FindingsList findingsList = new FindingsList();
-        findingsList.findingsList();
+        scanner.close();
     }
 
     private static boolean landingCheck(int minutesLeft) throws InterruptedException {
