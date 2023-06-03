@@ -1,8 +1,8 @@
 import java.util.Scanner;
 import java.util.Random;
 
-public class GuessingGame {
-    public void guessingGame(){
+public class  GuessingGame {
+        public void guessingGame(){
         Scanner input = new Scanner(System.in);
         Random rand = new Random();
         int number = rand.nextInt(100);
